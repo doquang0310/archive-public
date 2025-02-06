@@ -7,7 +7,7 @@ endpoints:
       baseURL: "https://api.deepseek.com/v1"
       models:
         default: ["deepseek-reasoner"]
-        fetch: true
+        fetch: false
       titleConvo: true
-      titleModel: "deepseek-chat"
+      titleModel: "deepseek-reasoner"
       modelDisplayLabel: "Deepseek"
